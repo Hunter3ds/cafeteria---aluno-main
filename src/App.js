@@ -1,13 +1,18 @@
 import React from "react";
-import Banner from "./components/Banner";
 import Formulario from "./components/Formulario/Formulario";
+import AppNavBar from "./components/AppNavBar";
+import './index.css'
 
 function App(){
     return(         
         // <Formulario/>
         <div className='App'>
-            <Banner/>
+            <AppNavBar/>
             <Formulario/>
+        
+             <div className='container-botao'>
+                <button className= 'botao' type='submit'>Enviar</button>
+            </div>
         </div>
     )
 }

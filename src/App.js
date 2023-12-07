@@ -1,7 +1,7 @@
 import React from "react";
 import Formulario from "./components/Formulario/Formulario";
-import AppNavBar from "./components/AppNavBar";
-import './index.css'
+import AppNavBar from "./components/AppNavBar/AppNavBar";
+
 
 function App(){
     return(         

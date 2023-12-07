@@ -3,20 +3,19 @@ import {Navbar, Nav, Container} from 'react-bootstrap' ;
 import './AppNavBar.css'
 
 const AppNavBar = ()=>{
-    <Navbar expanded='lg' className='bg-body-tertiary' bg='dark'>
-        <Container></Container>
-        <Navbar.Brand href>
-            <img className='' src='' alt='logo Principal'/>
-            <Navbar.Toggle aria-controls='basic-navbar-nav'/>
-            <Navbar.Collapse>
-                <Nav className='me-auto'>
-                    <Nav.Link href='#bebidas'>Bebidas</Nav.Link>
-                    <Nav.Link href='#doces'>Doces</Nav.Link>
-                    <Nav.Link href='#contato'>Contatos</Nav.Link>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar.Brand>
+    return(
+    <Navbar variant='dar4k' bg='dark'>
+        <Container>
+         
+            <Nav className='me-auto'>
+            <img className='logo' src='/imagens/logoSemFundo.png' alt='Logo pricipal'/>
+                <Nav.Link >Bebidas</Nav.Link>
+                <Nav.Link >Doces</Nav.Link>
+                <Nav.Link >Contato</Nav.Link>
+            </Nav>
+        </Container>
     </Navbar>
+    )
 }
 
 export default AppNavBar

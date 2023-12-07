@@ -1,3 +1,11 @@
+:root{
+  --marromClaro: #bf7e3d;
+  --bege: #edbc86;
+  --marrom: #854404;
+  --marromMedio: #ab7851;
+  --azul: #b7dae0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +15,7 @@ body {
   justify-content: center;
 }
 .botao{
-  background-color: black;
+  background-color: var(--marrom);
   color: white;
   padding: 20px;
   max-width: 20%;
